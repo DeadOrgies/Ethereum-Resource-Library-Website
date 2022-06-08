@@ -1,0 +1,422 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/devstyle.css">
+
+
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header__container container container--px">
+            <nav class="navbar flex">
+                <a href="#" class="navbar__brand" title="Back to the homepage">Ethereum</a>
+
+                <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button" aria-haspopup="true"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
+                    </div>
+                </button>
+
+
+
+                <ul id="menuList" class="navbar__menu menu" role="menu">
+
+                    <li class="menu__item" role="none">
+                        <a href="#" class="menu__link menu__link--active" role="menuitem">Home</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="#" class="menu__link" role="menuitem">Library</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="#" class="menu__link" role="menuitem">Contribute</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="#" class="menu__link" role="menuitem">FAQs</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="#" class="menu__link" role="menuitem">About</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="overlayLayer" class="header__overlay"></div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__container container container--px flex">
+                <div class="hero__text">
+                    <h1 class="hero__title">Ethereum Developer R<span class="hero__title-underline">esource.</span></h1>
+                    <p class="hero__paragraph">Useful repositories and knowledge, <br> Know everything about ethereum!
+                    </p>
+                    <a href="#" class="hero__cta cta cta--primary">Get started</a>
+                </div>
+
+                <div class="hero__image-wrapper">
+                    <a class="devsymbol">&lt;/&gt;</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- Portfolio -->
+                <section class="portfolio">
+                    <div class="portfolio__container container container--px">
+                        <div class="portfolio__text">
+                            <h1 class="portfolio__subtitle subtitle-primary">Get Started</h1>
+                            <h2 class="portfolio__title title-primary">Explore Ethereum based on your preferences</h2>
+                        </div>
+        
+                        <div class="portfolio__wrapper">
+                            <div class="pcontainer">
+                                <div class="card">
+                                    <div class="face face1">
+                                        <div class="content">
+                                            <img
+                                                src="/res/book.png">
+                                            <h3>Read the Docs</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content">
+                                            <p>Traders, trade away with more powerful tools and useful information!</p>
+                                            <a href="#">Choose</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="face face1">
+                                        <div class="content">
+                                            <img
+                                                src="/res/group.png">
+                                            <h3>Community Tutorials</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content">
+                                            <p>Useful libraries for ethereum based blockchain developers</p>
+                                            <a href="#">Choose</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="face face1">
+                                        <div class="content">
+                                            <img src="/res/analyst-svgrepo-com.svg">
+                                            <h3>Experiment with code</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content">
+                                            <p>This library intends to find information relative to a blockchain analyst</p>
+                                            <a href="#">play with code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="face face1">
+                                        <div class="content">
+                                            <img
+                                                src="/res/tools.png">
+                                            <h3>Choose your tools</h3>
+                                        </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <div class="content">
+                                            <p>Dont know where to start? Dont worry! This library has got your back.</p>
+                                            <a href="#">Choose</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </section>
+
+
+        <!-- Features -->
+        <section class="features">
+            <div class="features__container container container--px">
+                <div class="features__text">
+                    <h1 class="features__subtitle subtitle-primary">Library</h1>
+                    <h2 class="features__title title-primary">E<span class="hero__title-underline">xplore</span></h2>
+                    <p class="features__paragraph">
+                        Explore the world of Ethereum and become a part of the Community.
+
+                    </p>
+                </div>
+
+                <div class="features__wrapper">
+                    <div class="features__feature feature--1">
+                        <div class="feature__icon-wrapper flex">
+                            <img class="feature__icon" src="/res/dapp.svg" viewBox="0 0 39 39" aria-hidden="true"
+                                focusable='false'>
+
+                            </img>
+                        </div>
+
+                        <h3 class="feature__title">IDEs</h3>
+                        <p class="feature__paragraph">
+                            Select your IDE and get coding!
+                        </p>
+                    </div>
+
+                    <div class="features__feature feature--2">
+                        <div class="feature__icon-wrapper flex">
+                            <img class="feature__icon" src="/res/contract.png" viewBox="0 0 39 39" aria-hidden="true"
+                                focusable='false'>
+
+                            </img>
+                        </div>
+
+                        <h3 class="feature__title">Contract Libraries</h3>
+                        <p class="feature__paragraph">
+                            Some useful smart contract libraries,
+                            to help your code 
+                        </p>
+                    </div>
+
+                    <div class="features__feature feature--3">
+                        <div class="feature__icon-wrapper flex">
+                            <img class="feature__icon" src="/res/web-plugin.png" viewBox="0 0 39 39"
+                                aria-hidden="true" focusable='false'>
+
+                            </img>
+                        </div>
+                        <h3 class="feature__title">Plugins</h3>
+                        <p class="feature__paragraph">
+                            Lorem ipsum dolor sit amet,
+                            consec tetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="features__feature feature--4">
+                        <div class="feature__icon-wrapper flex">
+                            <img class="feature__icon" src="/res/api.png" viewBox="0 0 31 39"
+                                aria-hidden="true" focusable='false'>
+
+                            </img>
+                        </div>
+                        <h3 class="feature__title">Open Source APIs</h3>
+                        <p class="feature__paragraph">
+                            useful APIs 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="testimonial">
+            <div class="testimonial__container container container--px">
+                <div class="testimonial__header flex">
+                    <div class="testimonial__text">
+                        <h1 class="subtitle-primary">New Dapps</h1>
+                        <h2 class="title-primary">Ethereum Dapps that might catch your eye</h2>
+                    </div>
+
+                    <div class="testimonial__controls flex">
+                        <button type="button" id="sliderPrevBtn"
+                            class="testimonials__prev cta cta--btn cta--btn_gray disabled"
+                            aria-label="Previous testimonial">
+                            <svg class="cta--btn-icon" viewBox="0 0 14 11" aria-hidden="true" focusable='false'>
+                                <path d="M13 5.5L1 5.5M1 5.5L5.5 10M1 5.5L5.5 1" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+
+                        <button type="button" id="sliderNextBtn" class="testimonials__next cta cta--btn cta--btn_yellow"
+                            aria-label="Next testimonial">
+                            <svg class="cta--btn-icon" viewBox="0 0 14 11" aria-hidden="true" focusable='false'>
+                                <path d="M1 5.5L13 5.5M13 5.5L8.5 1M13 5.5L8.5 10" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="testimonial__wrapper">
+                    <div id="sliderArea" class="testimonial__slider flex">
+                        <div class="testimonial__slide">
+                            <div class="testimonial__slide-header flex">
+                                <div class="testimonial__slide-data flex">
+                                    <img src="/res/uniswap logo.png" alt="testimonial user avatar"
+                                        class="testimonial__slide-img">
+                                    <div class="testimonial__slide-info">
+                                        <h3 class="testimonial__slide-name">UniSwap</h3>
+                                        <span class="testimonial__slide-subtitle">Swapping Services</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__slide-body">
+                                <p class="testimonial__slide-description">
+                                    UniSwap is a protocol for automated token exchange made on the Ethereum Blockchain.
+                                    Swap, earn, and build on the leading decentralized crypto trading protocol.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="testimonial__slide-header flex">
+                                <div class="testimonial__slide-data flex">
+                                    <img src="/res/opensealogo.png" alt="testimonial user avatar"
+                                        class="testimonial__slide-img">
+                                    <div class="testimonial__slide-info">
+                                        <h3 class="testimonial__slide-name">OpenSea</h3>
+                                        <span class="testimonial__slide-subtitle">NFT Marketplace</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__slide-body">
+                                <p class="testimonial__slide-description">
+                                    A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles.
+                                    Buy, sell, and discover exclusive digital assets.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="testimonial__slide-header flex">
+                                <div class="testimonial__slide-data flex">
+                                    <img src="/res/AXIE-INFINITY-LOGO.png" alt="testimonial user avatar"
+                                        class="testimonial__slide-img">
+                                    <div class="testimonial__slide-info">
+                                        <h3 class="testimonial__slide-name">Axie Infinity</h3>
+                                        <span class="testimonial__slide-subtitle">Games</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__slide-body">
+                                <p class="testimonial__slide-description">
+                                    Battle ✨ Collect ⟠ Earn! Axie creates economic freedom for gamers. It's a blockchain
+                                    game based on the Ethereum blockchain
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__footer">
+                    <a href="#" class="testimonial__link cta cta--link">
+                        See more Dapps
+                        <svg class="testimonial__link__icon cta--link-icon" viewBox="0 0 17 14" aria-hidden="true"
+                            focusable='false'>
+                            <path d="M1 7.375L16 7.375M16 7.375L10.375 1.75M16 7.375L10.375 13" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (: -->
+    <footer class="footer">
+        <div class="footer__container container container--px flex">
+            <div class="footer__header flex">
+                <a href="#" class="footer__brand" title="Back to the homepage">Ethereum</a>
+
+                <div class="footer__social-icons social-icons flex">
+                    <a href="#" class="social-icons__link social-icons__link--dribbble">
+                        <i class='bx bxl-dribbble'></i>
+                        <span class="visually-hidden">Dribbble</span>
+                    </a>
+                    <a href="#" class="social-icons__link social-icons__link--facebook">
+                        <i class='bx bxl-facebook'></i>
+                        <span class="visually-hidden">Facebook</span>
+                    </a>
+                    <a href="#" class="social-icons__link social-icons__link--twitter">
+                        <i class='bx bxl-twitter'></i>
+                        <span class="visually-hidden">Twitter</span>
+                    </a>
+                    <a href="#" class="social-icons__link social-icons__link--youtube">
+                        <i class='bx bxl-youtube'></i>
+                        <span class="visually-hidden">YouTube</span>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="footer__inner flex">
+                <ul class="footer__list list" role="menu">
+                    <h3 class="list__title">Home</h3>
+
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Library</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Explore</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Discover</a>
+                    </li>
+
+                </ul>
+                <ul class="footer__list list" role="menu">
+                    <h3 class="list__title">Pages</h3>
+
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">About Us</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Careers</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Case Studies</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Pricing</a>
+                    </li>
+                </ul>
+                <ul class="footer__list list" role="menu">
+                    <h3 class="list__title">Blog</h3>
+
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Blog Listing</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Blog Article</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Newsroom</a>
+                    </li>
+                </ul>
+                <ul class="footer__list list" role="menu">
+                    <h3 class="list__title">Portfolio</h3>
+
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Portfolio</a>
+                    </li>
+                    <li class="list__item" role="none">
+                        <a href="#" class="list__link" role="menuitem">Single Case</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <p class="footer__text">© Ethereum</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/scripts.js"></script>
+
+</body>
+
+</html>

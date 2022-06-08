@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/dapslider.css">
+
+
+
+    <title>dapps</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header__container container container--px">
+            <nav class="navbar flex">
+                <form action="/home" method="POST">
+                    <button type="submit" class="navbar__brand" title="Back to the homepage">Ethereum</button>
+                </form>
+
+                <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button" aria-haspopup="true"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
+                    </div>
+                </button>
+
+
+
+                <ul id="menuList" class="navbar__menu menu" role="menu">
+
+                    <li class="menu__item" role="none">
+                        <form action="/appslider" method="POST">
+                            <button type="submit" class="menu__link menu__link--active" role="menuitem">Dapps</button>
+                        </form>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <form action="/home" method="POST">
+                            <button type="submit" class="menu__link" role="menuitem">Home</button>
+                        </form>
+                    </li>
+                
+                </ul>
+            </nav>
+
+            <div id="overlayLayer" class="header__overlay"></div>
+        </div>
+    </header>
+
+    <div class="appsilder">
+        <div class="appcontainer">
+            <div class="slider">
+    
+                <div class="box1 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Uniswap</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                            diam, ac mattis orci pellentesque eget.
+                        </p>
+                        <button>Check Now</button>
+                    </div>
+    
+                    <div class="illustration">
+    
+                        <img src="/res/uniswap logo.png" alt="">
+    
+                    </div>
+                </div>
+    
+    
+                <div class="box2 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>OpenSea</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                            diam, ac mattis orci pellentesque eget.
+                        </p>
+                        <button>Check Now</button>
+                    </div>
+    
+                    <div class="illustration">
+                        <img src="/res/opensealogo.png" alt="">
+    
+                    </div>
+                </div>
+    
+                <div class="box3 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Dharma</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                            diam, ac mattis orci pellentesque eget.
+                        </p>
+                        <button>Check Now</button>
+                    </div>
+    
+                    <div class="illustration">
+                        <img src="/res/dharma.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="box4 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Axie Infinity</h1>
+                        <p>
+                            Battle ✨ Collect ⟠ Earn! Axie creates economic freedom for gamers. It's a blockchain
+                            game based on the Ethereum blockchain
+                        </p>
+                        <button>Check Now</button>
+                    </div>
+    
+                    <div class="illustration">
+                        <img src="/res/AXIE-INFINITY-LOGO.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="box5 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Aave</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                            diam, ac mattis orci pellentesque eget.
+                        </p>
+                        <button>Check Now</button>
+                    </div>
+    
+                    <div class="illustration">
+                        <img src="/res/aave-aave-logo.png" class="aavelogo" alt="">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91">
+                <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91">
+                <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff" />
+            </svg>
+            <div class="trail">
+                <div class="box1 active">1</div>
+                <div class="box2">2</div>
+                <div class="box3">3</div>
+                <div class="box4">4</div>
+                <div class="box5">5</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/scripts.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
+    <script src="/scripts/dapp.js"></script>
+
+
+
+</body>
+
+</html>
